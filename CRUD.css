@@ -1,0 +1,75 @@
+.bg-bo
+{
+    background-color:#fff0d6;
+}
+
+.h-2re
+{
+    height: 2rem !important;
+}
+@font-face {
+    font-family: "adham";
+    src: url("Pacifico/Pacifico-Regular.ttf");
+  }  
+/* .divo
+  {
+    position: absolute;
+    top: 5rem;
+    left: 39.5rem;
+    background-color: rgba(255, 203, 71, 0.863);
+    width: 256px;
+    height: 26px;
+    z-index: -1;
+  } */
+h1::after
+{
+    position: absolute;
+    top: 5rem;
+    left: 40rem;
+    content: " ";
+    background-color: rgba(255, 203, 71, 0.863);
+    width: 256px;
+    height: 3%;
+    z-index: -1;  
+}
+/* h1::after:hover
+{ 
+    height: 50%;
+} */
+.fonta
+{
+    font-family: adham;
+    font-size: 300%;
+}
+.hrr
+{
+    border: dotted black 1px;
+}
+.clr-g
+{
+    text-align: center;
+    color: green;
+}
+.mx-10
+{
+    width: 10%;
+    margin: auto;
+}
+
+
+@media screen and (max-width: 800px) 
+{
+    h1::after
+    {
+        top: 5rem;
+        left: 9.4rem ; 
+    }
+}
+@media screen and  (max-width:500px)
+{
+    h1::after
+    {
+        top: 5rem;
+        left: 9.2rem;   
+     }
+}

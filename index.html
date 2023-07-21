@@ -1,0 +1,55 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="bootstrap.min.css">    
+        <link rel="stylesheet" href="CRUD.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="fontawesome-free-6.4.0-web/css/all.min.css">
+        <link rel="icon" href="bookmark-flat.png">
+        <title>Bookmark</title>
+    </head>
+    <body class="bg-bo">
+
+
+       <div class="container pb-5" >
+        <!-- <div class="divo col-lg-12 col-md-12 col-sm-12"></div> -->
+        <h1 class="fonta text-center mt-5 mb-5" >   Bookmarker    </h1>
+        <hr class="hrr">
+        <div>
+            <div class="clr-g">
+                <h4 class=""> <i class="fa-solid fa-bookmark"></i> Bookmark your favorite sites <i class="fa-solid fa-bookmark"></i></h4>
+            </div>
+        <div class="d-flex flex-column">
+        <label for="" class="mt-5"><i class="fa-solid fa-book-bookmark"></i> Site Name </label>
+        <input type="text" class="mx-1 border rounded-2 ps-2 mt-2 h-2re" id="nameSite" placeholder="Bookmark Name">
+        <label for="" class="mt-4"><i class="fa-solid fa-link"></i> Site URL </label>
+        <input type="text" class="mx-1 border rounded-2 ps-2 mt-2 h-2re"id="siteURL" placeholder="Website URL">
+        <button onclick="addsite()" type="button" class="btn btn-danger mx-10 mt-4">Submit</button>
+        </div>
+        <hr class="hrr">
+        <table class="my-5 table w-100 mx-auto">
+
+            <thead class="text-primary text-center">
+              <th class="fw-bold">Index</th>
+              <th class="fw-bold">Site Name</th>
+              <th class="fw-bold">Vist</th>
+              <th class=" fw-bold">Delete</th>
+              
+            </thead>
+    
+            <tbody id="tBody" class="text-center">
+    
+             
+    
+            </tbody>
+    
+          </table>
+        </div>
+       </div>
+
+
+
+        <script src="bootstrap.bundle.min.js"></script>
+        <script src="CRUD.js"></script>
+        <script src="fontawesome-free-6.4.0-web/js/all.min.js"></script>
+    </body>
+</html>

@@ -1,0 +1,21 @@
+.co
+{
+    background-color: rgb(51, 51, 230);
+    color: white;
+    width: 14rem;
+    height: 5rem;
+}
+.co:hover
+{
+    background-color: darkcyan;
+}
+.fontsize
+{
+    font-size: 5rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.pp
+{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 3px;
+}
